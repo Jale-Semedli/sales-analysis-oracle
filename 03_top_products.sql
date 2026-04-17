@@ -1,6 +1,6 @@
 -- ============================================
--- Sorgu 2: En cox satan Top 5 mehsul
--- Konsept: Subquery, ROWNUM (Oracle-a xas)
+-- Sorğu 2: Ən çox satan Top 5 məhsul
+-- İstifadə olundu: Subquery, ROWNUM (Oracle-a xas)
 -- ============================================
 
 SELECT *
