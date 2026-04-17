@@ -8,7 +8,7 @@ FROM (
     SELECT
         product,
         category,
-        COUNT(*)                        AS satig_sayi,
+        COUNT(*)                        AS satis_sayi,
         SUM(units_sold)                 AS toplam_eded,
         SUM(revenue)                    AS toplam_gelir,
         ROUND(AVG(rating), 2)           AS orta_reytinq
