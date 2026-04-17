@@ -1,11 +1,11 @@
 -- ============================================
--- Sorgu 1: Ay uzre umumi gelir
--- Konsept: GROUP BY, SUM, ORDER BY
+-- Sorğu 1: Ay üzrə ümumi gəlir
+-- İstifadə olundu: GROUP BY, SUM, ORDER BY
 -- ============================================
 
 SELECT
     month,
-    COUNT(*)                        AS satig_sayi,
+    COUNT(*)                        AS satis_sayi,
     SUM(units_sold)                 AS toplam_eded,
     SUM(revenue)                    AS umumi_gelir,
     ROUND(AVG(revenue), 2)          AS orta_gelir
