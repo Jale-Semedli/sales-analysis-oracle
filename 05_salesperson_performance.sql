@@ -1,11 +1,11 @@
 -- ============================================
--- Sorgu 4: Satici performansi
--- Konsept: GROUP BY, HAVING, COUNT DISTINCT
+-- Sorğu 4: Satıcı performansı
+-- İstifadə olundu: GROUP BY, HAVING, COUNT DISTINCT
 -- ============================================
 
 SELECT
     salesperson,
-    COUNT(*)                                AS satig_sayi,
+    COUNT(*)                                AS satis_sayi,
     COUNT(DISTINCT product)                 AS fərqli_mehsul,
     SUM(revenue)                            AS umumi_gelir,
     ROUND(AVG(rating), 2)                   AS orta_reytinq,
