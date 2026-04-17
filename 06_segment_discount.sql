@@ -1,12 +1,12 @@
 -- ============================================
--- Sorgu 5: Musteri seqmenti + endirim analizi
--- Konsept: CASE WHEN, GROUP BY, NVL
+-- Sorğu 5: Müştəri seqmenti + endirim analizi
+-- İstifadə olundu: CASE WHEN, GROUP BY, NVL
 -- ============================================
 
 SELECT
     customer_segment,
     region,
-    COUNT(*)                                            AS satig_sayi,
+    COUNT(*)                                            AS satis_sayi,
     SUM(revenue)                                        AS umumi_gelir,
     SUM(CASE WHEN discount = '0%' THEN 1 ELSE 0 END)   AS endirimsiz_satig,
     SUM(CASE WHEN discount != '0%' THEN 1 ELSE 0 END)  AS endirimli_satig,
