@@ -1,6 +1,6 @@
 -- ============================================
--- Sorgu 6: Kumulyativ (artan) gelir - LAG
--- Konsept: LAG() window funksiyasi, subquery
+-- Sorğu 6: Kumulyativ (artan) gəlir - LAG
+-- İstifadə olundu: LAG() window funksiyasi, subquery
 -- ============================================
 
 SELECT
